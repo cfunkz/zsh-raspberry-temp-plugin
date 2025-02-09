@@ -22,5 +22,5 @@ rpi-temp() {
     color=$GREEN
   fi
   
-  echo "🌡️  Raspberry Pi Temp: ${color}${temp_raw}°C${RESET}"
+  echo "🌡️  Raspberry Pi Temperature: ${color}${temp_raw}°C${RESET}"
 }
